@@ -1,5 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("test branchg");
+        System.out.printf("test branch");
     }
 }
