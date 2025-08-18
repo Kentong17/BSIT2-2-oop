@@ -27,11 +27,14 @@ public class Main {
     }
 
     public void displayResult(String studentName, double average) {
-        System.out.println("Student: " + "studentName, "+ "Average: " + average);
+        System.out.println("Student: " + studentName);
+        System.out.println("Average: " + average);
     }
 
     public void displayResult(String studentName, double average, String letterGrade) {
-        System.out.println("Student: " + "studentName, " + "Average: " + average +", Letter Grade:" + letterGrade);
+        System.out.println("Student: " + studentName);
+        System.out.println("Average: " + average);
+        System.out.println("Letter Grade: " + letterGrade);
     }
 
     public static void main(String[] args) {
